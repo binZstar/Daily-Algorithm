@@ -16,6 +16,11 @@ x86/
 
 # 忽略 .vs 文件夹
 .vs/
+# 忽略 Visual Studio 项目文件
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 
 # ==============================
 # Code::Blocks 临时文件（C）
