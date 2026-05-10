@@ -1,17 +1,21 @@
-# 忽略 Visual Studio 生成的文件和文件夹
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# 忽略编译生成的文件
-cpp/Project1/Debug/
-cpp/Project1/Release/
-cpp/Project1/x64/
+# 忽略 Visual Studio 的临时文件和编译输出
+Debug/
+Release/
+x64/
+x86/
+*.tlog
+*.log
+*.ilk
+*.pdb
 *.exe
 *.obj
-*.pdb
+*.ipch
+*.sdf
+*.user
+*.suo
+
+# 忽略 .vs 文件夹
+.vs/
 
 # ==============================
 # Code::Blocks 临时文件（C）
