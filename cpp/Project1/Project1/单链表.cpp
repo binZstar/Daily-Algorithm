@@ -27,7 +27,13 @@ void add(int k,int x)
 //删除下标为k的节点的后面的一个节点
 void remove(int k)
 {
-	ne[k] = ne[ne[k]];
+	//删除头结点
+	if (k == 0) {
+		head = ne[head];
+	}
+	else {
+		ne[k] = ne[ne[k]];
+	}
 }
 int main()
 {
