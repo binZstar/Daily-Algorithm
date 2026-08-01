@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-const int N = 10010;
-const int M = 100010;
+const int N = 100010;
+const int M = 10010;
 char p[N], s[M];    //p[]代表模板串 s[]代表文本串
 int main()
 {
@@ -20,4 +20,5 @@ int main()
 		}
 	}
 	return 0;
+	for(int i = 0; i < n; i ++)
 }
