@@ -38,8 +38,8 @@ int dijkstra()
 		for (int i = h[ver]; i != -1; i = ne[i]) {
 			int j = e[i];
 			//松弛操作
-			if (dist[j] > distance + w[j]) {
-				dist[j] = distance + w[j];
+			if (dist[j] > distance + w[i]) {
+				dist[j] = distance + w[i];
 				//新距离入队
 				heap.push({ dist[j],j });
 			}
