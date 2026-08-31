@@ -12,6 +12,7 @@ void dfs(int u)
 			cout << path[i] << " ";
 		}
 		cout << endl;
+		return;
 	}
 	for (int i = 1; i <= n; i++) {
 		if (!st[i]) {
