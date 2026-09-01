@@ -15,8 +15,8 @@ int main()
 		scanf("%d", &x);
 		int l = 0, r = n - 1;    //l左指针，r右指针
 		//先输入x的起始位置
-		int mid = (l + r) >> 1;
 		while (l < r) {
+			int mid = (l + r) >> 1;
 			if (q[mid] >= x) {   //若q[mid]大于等于x，则r右指针向左移动
 				r = mid;
 			}

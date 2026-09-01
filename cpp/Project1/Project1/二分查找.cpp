@@ -5,6 +5,8 @@ bool check()
 
 }
 //整数二分
+//左边界：第一个大于等于x的数 r = mid mid不加1
+//右边界：第一个小于等于x的数 l = mid mid加1
 //区间[l,r]被划分为[l,mid]和[mid + 1,r]时使用
 int bsearch_Int(int q[], int l, int r)
 {
