@@ -20,7 +20,7 @@ LL qmi(LL a, int k, int p)
 int main()
 {
 	//C(a,b)= a!/ [b!(a - b)!] = a! × (b!)⁻¹ × ((a-b)!)⁻¹
-	//c[a][b] = a! / (b! * (a - b + 1)!) = a! * b!的逆 * (a - b)的逆
+	//c[a][b] = a! / (b! * (a - b)!) = a! * b!的逆 * (a - b)的逆
 	fact[0] = infact[0] = 1;
 	for (int i = 1; i < N; i++) {
 		//阶乘
